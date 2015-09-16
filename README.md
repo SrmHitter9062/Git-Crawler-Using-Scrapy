@@ -46,13 +46,15 @@ tutorial/
 
 
 
--> Define Item (http://doc.scrapy.org/en/latest/intro/tutorial.html)
--> define Spieders (http://doc.scrapy.org/en/latest/intro/tutorial.html)
--> Then crawling 
+a) Define Item (http://doc.scrapy.org/en/latest/intro/tutorial.html)
+
+b) define Spieders (http://doc.scrapy.org/en/latest/intro/tutorial.html)
+
+c) Then crawling 
 
   	To put our spider to work, go to the project’s top level directory and run:
 
-	scrapy crawl dmoz
+	scrapy crawl spiderName
 
 
 For more information go to scrapy tutorials page
