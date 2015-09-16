@@ -16,3 +16,31 @@ echo 'deb http://archive.scrapy.org/ubuntu scrapy main' | sudo tee /etc/apt/sour
 sudo apt-get update && sudo apt-get install scrapy-0.24
 
 Or u can follow  this link - http://doc.scrapy.org/en/latest/topics/ubuntu.html#topics-ubuntu
+
+
+After installing create project ,write Items and Spiders and extract data  which u want
+
+-> Creating a project (link - http://doc.scrapy.org/en/latest/intro/tutorial.html)
+
+Before you start scraping, you will have to set up a new Scrapy project. Enter a directory where you’d like to store your code and run:
+
+scrapy startproject tutorial
+
+This will create a tutorial directory with the following contents:
+
+tutorial/
+    scrapy.cfg            # deploy configuration file
+
+    tutorial/             # project's Python module, you'll import your code from here
+        __init__.py
+
+        items.py          # project items file
+
+        pipelines.py      # project pipelines file
+
+        settings.py       # project settings file
+
+        spiders/          # a directory where you'll later put your spiders
+            __init__.py
+            ...
+
