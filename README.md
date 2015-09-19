@@ -59,4 +59,16 @@ c) Then crawling
 
 For more information go to scrapy tutorials page
 
+***************To run this project*****************
+
+$ cd GitCrawler/
+$ scrapy crawl git -a domain="https://github.com/scrapy/scrapy"
+
+
+NOTE: please make sure that repository name should be in this format - "https://github.com/scrapy/scrapy" , No other format
+
+You will see result :) 
+result has been shown in crawlerOutput.jpg file :D
+
+
 
