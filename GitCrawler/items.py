@@ -8,7 +8,12 @@
 import scrapy
 
 
-class GitcrawlerItem(scrapy.Item):
+class ShippableItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    totalIssue = scrapy.Field()
+    In24Hours = scrapy.Field()
+    Before7 = scrapy.Field()
+    
+
+
