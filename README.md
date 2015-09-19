@@ -62,6 +62,7 @@ For more information go to scrapy tutorials page
 ***************To run this project*****************
 
 $ cd GitCrawler/
+
 $ scrapy crawl git -a domain="https://github.com/scrapy/scrapy"
 
 
